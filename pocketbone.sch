@@ -2197,6 +2197,45 @@ by exp-lbrs.ulp</description>
 <smd name="2" x="5.07" y="2.54" dx="1.8" dy="2.4" layer="1"/>
 <text x="0" y="5.08" size="0.762" layer="25">&gt;NAME</text>
 </package>
+<package name="USB-AB-MICRO-SMD">
+<description>micro USB AB connector for OTG support. 5-pins: USBVCC, GND, D+, D-, USBID. Can act as host or device</description>
+<wire x1="-2.75" y1="4" x2="-2.75" y2="-4" width="0.2032" layer="51"/>
+<wire x1="-2.05" y1="5" x2="-2.05" y2="-5" width="0.2032" layer="51"/>
+<wire x1="-3" y1="5.6" x2="-2.3" y2="5.3" width="0.08" layer="51"/>
+<wire x1="-2.3" y1="5.3" x2="-2.4" y2="5.5" width="0.08" layer="51"/>
+<wire x1="-2.3" y1="5.3" x2="-2.5" y2="5.2" width="0.08" layer="51"/>
+<wire x1="2.9" y1="4" x2="2.9" y2="-4" width="0.2032" layer="51"/>
+<wire x1="-2.7" y1="4" x2="-0.6" y2="4" width="0.2032" layer="51"/>
+<wire x1="-0.6" y1="4" x2="0.6" y2="4" width="0.2032" layer="51"/>
+<wire x1="0.6" y1="4" x2="2.9" y2="4" width="0.2032" layer="51"/>
+<wire x1="-2.7" y1="-4" x2="-0.6" y2="-4" width="0.2032" layer="51"/>
+<wire x1="-0.6" y1="-4" x2="0.6" y2="-4" width="0.2032" layer="51"/>
+<wire x1="0.6" y1="-4" x2="2.9" y2="-4" width="0.2032" layer="51"/>
+<wire x1="1.2" y1="4.1" x2="3" y2="4.1" width="0.254" layer="21"/>
+<wire x1="3" y1="4.1" x2="3" y2="1.8" width="0.254" layer="21"/>
+<wire x1="3" y1="-1.8" x2="3" y2="-4.1" width="0.254" layer="21"/>
+<wire x1="3" y1="-4.1" x2="1.2" y2="-4.1" width="0.254" layer="21"/>
+<wire x1="-1.2" y1="-4.1" x2="-1.9" y2="-4.1" width="0.254" layer="21"/>
+<wire x1="-1.2" y1="4.1" x2="-1.9" y2="4.1" width="0.254" layer="21"/>
+<wire x1="-0.6" y1="4" x2="-0.6" y2="4.6" width="0.2032" layer="51"/>
+<wire x1="-0.6" y1="4.6" x2="0.6" y2="4.6" width="0.2032" layer="51"/>
+<wire x1="0.6" y1="4.6" x2="0.6" y2="4" width="0.2032" layer="51"/>
+<wire x1="0.6" y1="-4" x2="0.6" y2="-4.6" width="0.2032" layer="51"/>
+<wire x1="0.6" y1="-4.6" x2="-0.6" y2="-4.6" width="0.2032" layer="51"/>
+<wire x1="-0.6" y1="-4.6" x2="-0.6" y2="-4" width="0.2032" layer="51"/>
+<smd name="D+" x="2.85" y="0" dx="0.4" dy="1.4" layer="1" rot="R90"/>
+<smd name="D-" x="2.85" y="0.65" dx="0.4" dy="1.4" layer="1" rot="R90"/>
+<smd name="GND" x="2.85" y="-1.3" dx="0.4" dy="1.4" layer="1" rot="R90"/>
+<smd name="ID" x="2.85" y="-0.65" dx="0.4" dy="1.4" layer="1" rot="R90"/>
+<smd name="SHIELD1" x="0" y="4" dx="2.2" dy="1.9" layer="1" rot="R90"/>
+<smd name="SHIELD2" x="0" y="1.25" dx="2" dy="1.9" layer="1" rot="R90"/>
+<smd name="SHIELD3" x="0" y="-1.25" dx="2" dy="1.9" layer="1" rot="R90"/>
+<smd name="SHIELD4" x="0" y="-4" dx="2.2" dy="1.9" layer="1" rot="R90"/>
+<smd name="VBUS" x="2.85" y="1.3" dx="0.4" dy="1.4" layer="1" rot="R90"/>
+<text x="-5.2" y="5.5" size="0.3048" layer="51">PCB Front</text>
+<text x="-1.27" y="5.969" size="0.762" layer="25">&gt;NAME</text>
+<text x="-1.27" y="5.461" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="B">
@@ -2757,6 +2796,21 @@ Renamed DAT2 from NC to RSV to remove the implication that you should leave it n
 <pin name="2" x="10.16" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <text x="0" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
 <text x="0" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="USB_AB">
+<description>USB AB, 5-pins: USBVCC, GND, D+, D-, USBID.</description>
+<wire x1="2.54" y1="6.35" x2="-2.54" y2="6.35" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="6.35" x2="-2.54" y2="-8.89" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-8.89" x2="2.54" y2="-8.89" width="0.254" layer="94"/>
+<pin name="D+" x="-5.08" y="0" visible="pad" length="short"/>
+<pin name="D-" x="-5.08" y="-2.54" visible="pad" length="short"/>
+<pin name="GND" x="-5.08" y="5.08" visible="pad" length="short"/>
+<pin name="SHIELD" x="-5.08" y="-7.62" visible="pad" length="short"/>
+<pin name="USBID" x="-5.08" y="2.54" visible="pad" length="short"/>
+<pin name="VBUS" x="-5.08" y="-5.08" visible="pad" length="short"/>
+<text x="1.27" y="-7.366" size="2.54" layer="94" rot="R90">USBAB</text>
+<text x="-2.54" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -3327,6 +3381,27 @@ NOTE: CD1 and CD2 are connected internally</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="USB-AB" prefix="JP" uservalue="yes">
+<description>This is a USB AB connector that is compatible with USB OTG. i.e. this connector can serve as a host or device</description>
+<gates>
+<gate name="G$1" symbol="USB_AB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="USB-AB-MICRO-SMD">
+<connects>
+<connect gate="G$1" pin="D+" pad="D+"/>
+<connect gate="G$1" pin="D-" pad="D-"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="SHIELD" pad="SHIELD1 SHIELD2 SHIELD3 SHIELD4"/>
+<connect gate="G$1" pin="USBID" pad="ID"/>
+<connect gate="G$1" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -3393,6 +3468,8 @@ NOTE: CD1 and CD2 are connected internally</description>
 <part name="R23" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="100K,1%"/>
 <part name="POWER" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD-1101NE"/>
 <part name="RESET" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD-1101NE"/>
+<part name="JP1" library="pocketbone" deviceset="USB-AB" device=""/>
+<part name="JP2" library="pocketbone" deviceset="USB-AB" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3960,6 +4037,8 @@ NOTE: CD1 and CD2 are connected internally</description>
 <attribute name="NAME" x="285.5214" y="138.43" size="1.27" layer="95" rot="R90" align="center-right"/>
 <attribute name="VALUE" x="285.242" y="146.05" size="1.27" layer="96" rot="R90" align="center-left"/>
 </instance>
+<instance part="JP1" gate="G$1" x="264.16" y="114.3"/>
+<instance part="JP2" gate="G$1" x="264.16" y="93.98"/>
 </instances>
 <busses>
 </busses>
@@ -3988,7 +4067,7 @@ NOTE: CD1 and CD2 are connected internally</description>
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
 <wire x1="261.62" y1="137.16" x2="261.62" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="261.62" y1="132.08" x2="246.38" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="132.08" x2="256.54" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="1"/>
 <wire x1="261.62" y1="132.08" x2="264.16" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="132.08" x2="264.16" y2="137.16" width="0.1524" layer="91"/>
@@ -4019,7 +4098,7 @@ NOTE: CD1 and CD2 are connected internally</description>
 <pinref part="R26" gate="G$1" pin="1"/>
 <wire x1="289.56" y1="132.08" x2="299.72" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="132.08" x2="299.72" y2="137.16" width="0.1524" layer="91"/>
-<label x="246.38" y="132.08" size="1.778" layer="95"/>
+<label x="309.88" y="132.08" size="1.778" layer="95"/>
 <pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="266.7" y1="137.16" x2="266.7" y2="132.08" width="0.1524" layer="91"/>
 <junction x="266.7" y="132.08"/>
@@ -4034,6 +4113,21 @@ NOTE: CD1 and CD2 are connected internally</description>
 <pinref part="R23" gate="G$1" pin="1"/>
 <wire x1="287.02" y1="132.08" x2="287.02" y2="137.16" width="0.1524" layer="91"/>
 <junction x="287.02" y="132.08"/>
+<pinref part="JP1" gate="G$1" pin="GND"/>
+<wire x1="259.08" y1="119.38" x2="256.54" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="119.38" x2="256.54" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="G$1" pin="SHIELD"/>
+<wire x1="259.08" y1="106.68" x2="256.54" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="106.68" x2="256.54" y2="119.38" width="0.1524" layer="91"/>
+<junction x="256.54" y="119.38"/>
+<wire x1="256.54" y1="106.68" x2="256.54" y2="99.06" width="0.1524" layer="91"/>
+<junction x="256.54" y="106.68"/>
+<pinref part="JP2" gate="G$1" pin="GND"/>
+<wire x1="256.54" y1="99.06" x2="259.08" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="99.06" x2="256.54" y2="86.36" width="0.1524" layer="91"/>
+<junction x="256.54" y="99.06"/>
+<pinref part="JP2" gate="G$1" pin="SHIELD"/>
+<wire x1="256.54" y1="86.36" x2="259.08" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MDIR_4A" class="0">
@@ -4154,6 +4248,10 @@ NOTE: CD1 and CD2 are connected internally</description>
 <pinref part="U2" gate="C" pin="USB0_DP"/>
 <wire x1="190.5" y1="139.7" x2="238.76" y2="139.7" width="0.1524" layer="91"/>
 <label x="195.58" y="139.7" size="1.778" layer="95"/>
+<wire x1="238.76" y1="139.7" x2="251.46" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="139.7" x2="251.46" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="G$1" pin="D+"/>
+<wire x1="251.46" y1="114.3" x2="259.08" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USB0_DM" class="2">
@@ -4161,13 +4259,20 @@ NOTE: CD1 and CD2 are connected internally</description>
 <pinref part="U2" gate="C" pin="USB0_DM"/>
 <wire x1="190.5" y1="137.16" x2="236.22" y2="137.16" width="0.1524" layer="91"/>
 <label x="195.58" y="137.16" size="1.778" layer="95"/>
+<wire x1="236.22" y1="137.16" x2="248.92" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="137.16" x2="248.92" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="111.76" x2="259.08" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="G$1" pin="D-"/>
 </segment>
 </net>
 <net name="USB0_ID" class="0">
 <segment>
 <pinref part="U2" gate="C" pin="USB0_ID"/>
-<wire x1="190.5" y1="132.08" x2="231.14" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="132.08" x2="254" y2="132.08" width="0.1524" layer="91"/>
 <label x="195.58" y="132.08" size="1.778" layer="95"/>
+<wire x1="254" y1="132.08" x2="254" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="G$1" pin="USBID"/>
+<wire x1="254" y1="116.84" x2="259.08" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EQEP_1A" class="0">
@@ -4199,10 +4304,43 @@ NOTE: CD1 and CD2 are connected internally</description>
 <segment>
 <wire x1="309.88" y1="127" x2="309.88" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="127" x2="228.6" y2="127" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="127" x2="309.88" y2="127" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="127" x2="246.38" y2="127" width="0.1524" layer="91"/>
 <pinref part="U2" gate="C" pin="USB0_VBUS"/>
 <label x="340.36" y="129.54" size="1.778" layer="95"/>
+<wire x1="246.38" y1="127" x2="309.88" y2="127" width="0.1524" layer="91"/>
 <wire x1="309.88" y1="129.54" x2="345.44" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="127" x2="246.38" y2="109.22" width="0.1524" layer="91"/>
+<junction x="246.38" y="127"/>
+<pinref part="JP1" gate="G$1" pin="VBUS"/>
+<wire x1="246.38" y1="109.22" x2="259.08" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="U2" gate="C" pin="USB1_DP"/>
+<wire x1="190.5" y1="121.92" x2="243.84" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="121.92" x2="243.84" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="99.06" x2="243.84" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="G$1" pin="D+"/>
+<wire x1="243.84" y1="93.98" x2="259.08" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="U2" gate="C" pin="USB1_DM"/>
+<wire x1="190.5" y1="119.38" x2="241.3" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="119.38" x2="241.3" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="G$1" pin="D-"/>
+<wire x1="241.3" y1="91.44" x2="259.08" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="U2" gate="C" pin="USB1_VBUS"/>
+<wire x1="190.5" y1="109.22" x2="238.76" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="109.22" x2="238.76" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="G$1" pin="VBUS"/>
+<wire x1="238.76" y1="88.9" x2="259.08" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
