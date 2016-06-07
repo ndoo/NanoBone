@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -2187,15 +2187,15 @@ by exp-lbrs.ulp</description>
 <text x="-2.1844" y="-1.905" size="0.762" layer="27" ratio="6" rot="SR0">&gt;VALUE</text>
 </package>
 <package name="CM200C-32.768KAZF-UT">
-<smd name="1" x="1.27" y="2.54" dx="1.3" dy="1.9" layer="1"/>
-<smd name="2" x="1.27" y="5.74" dx="1.3" dy="1.9" layer="1"/>
-<smd name="3" x="6.77" y="2.54" dx="1.3" dy="1.9" layer="1"/>
-<smd name="4" x="6.77" y="5.74" dx="1.3" dy="1.9" layer="1"/>
+<smd name="1" x="-2.8575" y="-1.5875" dx="1.3" dy="1.9" layer="1"/>
+<smd name="2" x="-2.8575" y="1.6125" dx="1.3" dy="1.9" layer="1"/>
+<smd name="3" x="2.6425" y="-1.5875" dx="1.3" dy="1.9" layer="1"/>
+<smd name="4" x="2.6425" y="1.6125" dx="1.3" dy="1.9" layer="1"/>
 </package>
 <package name="445C33D24M00000">
-<smd name="1" x="1.27" y="2.54" dx="1.8" dy="2.4" layer="1"/>
-<smd name="2" x="5.07" y="2.54" dx="1.8" dy="2.4" layer="1"/>
-<text x="0" y="5.08" size="0.762" layer="25">&gt;NAME</text>
+<smd name="1" x="-1.905" y="0" dx="1.8" dy="2.4" layer="1"/>
+<smd name="2" x="1.895" y="0" dx="1.8" dy="2.4" layer="1"/>
+<text x="-2.54" y="1.905" size="0.762" layer="25">&gt;NAME</text>
 </package>
 <package name="USB-AB-MICRO-SMD">
 <description>micro USB AB connector for OTG support. 5-pins: USBVCC, GND, D+, D-, USBID. Can act as host or device</description>
@@ -3404,182 +3404,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="AR8035-AL1B">
-<packages>
-<package name="QFN40P500X500X75-41N">
-<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="51"/>
-<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.127" layer="51"/>
-<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="51"/>
-<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="0.127" layer="51"/>
-<wire x1="-2" y1="2.5" x2="-2.1" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-2.1" y1="2.5" x2="-2.5" y2="2.1" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="2.1" x2="-2.5" y2="2" width="0.127" layer="21"/>
-<wire x1="2" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="21"/>
-<wire x1="2.5" y1="2.5" x2="2.5" y2="2" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-2" x2="-2.5" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-2.5" x2="-2" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-2" x2="2.5" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-2.5" x2="2" y2="-2.5" width="0.127" layer="21"/>
-<circle x="-3.2" y="1.8" radius="0.1" width="0.3048" layer="21"/>
-<wire x1="-3.15" y1="3.15" x2="3.15" y2="3.15" width="0.127" layer="39"/>
-<wire x1="3.15" y1="3.15" x2="3.15" y2="-3.15" width="0.127" layer="39"/>
-<wire x1="3.15" y1="-3.15" x2="-3.15" y2="-3.15" width="0.127" layer="39"/>
-<wire x1="-3.15" y1="-3.15" x2="-3.15" y2="3.15" width="0.127" layer="39"/>
-<text x="-2.9" y="3" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.5" y="-4.2" size="1.27" layer="27">&gt;VALUE</text>
-<smd name="1" x="-2.45" y="1.8" dx="0.85" dy="0.2" layer="1"/>
-<smd name="2" x="-2.45" y="1.4" dx="0.85" dy="0.2" layer="1"/>
-<smd name="3" x="-2.45" y="1" dx="0.85" dy="0.2" layer="1"/>
-<smd name="4" x="-2.45" y="0.6" dx="0.85" dy="0.2" layer="1"/>
-<smd name="5" x="-2.45" y="0.2" dx="0.85" dy="0.2" layer="1"/>
-<smd name="6" x="-2.45" y="-0.2" dx="0.85" dy="0.2" layer="1"/>
-<smd name="7" x="-2.45" y="-0.6" dx="0.85" dy="0.2" layer="1"/>
-<smd name="8" x="-2.45" y="-1" dx="0.85" dy="0.2" layer="1"/>
-<smd name="9" x="-2.45" y="-1.4" dx="0.85" dy="0.2" layer="1"/>
-<smd name="10" x="-2.45" y="-1.8" dx="0.85" dy="0.2" layer="1"/>
-<smd name="11" x="-1.8" y="-2.45" dx="0.85" dy="0.2" layer="1" rot="R90"/>
-<smd name="12" x="-1.4" y="-2.45" dx="0.85" dy="0.2" layer="1" rot="R90"/>
-<smd name="13" x="-1" y="-2.45" dx="0.85" dy="0.2" layer="1" rot="R90"/>
-<smd name="14" x="-0.6" y="-2.45" dx="0.85" dy="0.2" layer="1" rot="R90"/>
-<smd name="15" x="-0.2" y="-2.45" dx="0.85" dy="0.2" layer="1" rot="R90"/>
-<smd name="16" x="0.2" y="-2.45" dx="0.85" dy="0.2" layer="1" rot="R90"/>
-<smd name="17" x="0.6" y="-2.45" dx="0.85" dy="0.2" layer="1" rot="R90"/>
-<smd name="18" x="1" y="-2.45" dx="0.85" dy="0.2" layer="1" rot="R90"/>
-<smd name="19" x="1.4" y="-2.45" dx="0.85" dy="0.2" layer="1" rot="R90"/>
-<smd name="20" x="1.8" y="-2.45" dx="0.85" dy="0.2" layer="1" rot="R90"/>
-<smd name="21" x="2.45" y="-1.8" dx="0.85" dy="0.2" layer="1" rot="R180"/>
-<smd name="22" x="2.45" y="-1.4" dx="0.85" dy="0.2" layer="1" rot="R180"/>
-<smd name="23" x="2.45" y="-1" dx="0.85" dy="0.2" layer="1" rot="R180"/>
-<smd name="24" x="2.45" y="-0.6" dx="0.85" dy="0.2" layer="1" rot="R180"/>
-<smd name="25" x="2.45" y="-0.2" dx="0.85" dy="0.2" layer="1" rot="R180"/>
-<smd name="26" x="2.45" y="0.2" dx="0.85" dy="0.2" layer="1" rot="R180"/>
-<smd name="27" x="2.45" y="0.6" dx="0.85" dy="0.2" layer="1" rot="R180"/>
-<smd name="28" x="2.45" y="1" dx="0.85" dy="0.2" layer="1" rot="R180"/>
-<smd name="29" x="2.45" y="1.4" dx="0.85" dy="0.2" layer="1" rot="R180"/>
-<smd name="30" x="2.45" y="1.8" dx="0.85" dy="0.2" layer="1" rot="R180"/>
-<smd name="31" x="1.8" y="2.45" dx="0.85" dy="0.2" layer="1" rot="R270"/>
-<smd name="32" x="1.4" y="2.45" dx="0.85" dy="0.2" layer="1" rot="R270"/>
-<smd name="33" x="1" y="2.45" dx="0.85" dy="0.2" layer="1" rot="R270"/>
-<smd name="34" x="0.6" y="2.45" dx="0.85" dy="0.2" layer="1" rot="R270"/>
-<smd name="35" x="0.2" y="2.45" dx="0.85" dy="0.2" layer="1" rot="R270"/>
-<smd name="36" x="-0.2" y="2.45" dx="0.85" dy="0.2" layer="1" rot="R270"/>
-<smd name="37" x="-0.6" y="2.45" dx="0.85" dy="0.2" layer="1" rot="R270"/>
-<smd name="38" x="-1" y="2.45" dx="0.85" dy="0.2" layer="1" rot="R270"/>
-<smd name="39" x="-1.4" y="2.45" dx="0.85" dy="0.2" layer="1" rot="R270"/>
-<smd name="40" x="-1.8" y="2.45" dx="0.85" dy="0.2" layer="1" rot="R270"/>
-<smd name="41" x="0" y="0" dx="3.2" dy="3.2" layer="1"/>
-</package>
-</packages>
-<symbols>
-<symbol name="AR8035-AL1B">
-<wire x1="-15.24" y1="33.02" x2="-15.24" y2="-33.02" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="-33.02" x2="15.24" y2="-33.02" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-33.02" x2="15.24" y2="33.02" width="0.254" layer="94"/>
-<wire x1="15.24" y1="33.02" x2="-15.24" y2="33.02" width="0.254" layer="94"/>
-<text x="-14.986" y="33.528" size="1.27" layer="95">&gt;NAME</text>
-<text x="-14.986" y="-34.798" size="1.27" layer="96">&gt;VALUE</text>
-<pin name="VDD33" x="20.32" y="27.94" length="middle" direction="pwr" rot="R180"/>
-<pin name="XTLO" x="20.32" y="2.54" length="middle" direction="out" rot="R180"/>
-<pin name="XTLI" x="-20.32" y="12.7" length="middle" direction="in"/>
-<pin name="AVDDL@1" x="20.32" y="22.86" length="middle" direction="pwr" rot="R180"/>
-<pin name="RBIAS" x="20.32" y="0" length="middle" direction="out" rot="R180"/>
-<pin name="VDDH_REG" x="20.32" y="-15.24" length="middle" direction="out" rot="R180"/>
-<pin name="TRXP0" x="-20.32" y="10.16" length="middle" direction="in"/>
-<pin name="AVDDL@2" x="20.32" y="20.32" length="middle" direction="pwr" rot="R180"/>
-<pin name="TRXN0" x="20.32" y="-2.54" length="middle" direction="out" rot="R180"/>
-<pin name="TRXP1" x="-20.32" y="7.62" length="middle" direction="in"/>
-<pin name="TRXN1" x="20.32" y="-5.08" length="middle" direction="out" rot="R180"/>
-<pin name="TRXP2" x="-20.32" y="5.08" length="middle" direction="in"/>
-<pin name="TRXP3" x="-20.32" y="2.54" length="middle" direction="in"/>
-<pin name="TRXN2" x="20.32" y="-7.62" length="middle" direction="out" rot="R180"/>
-<pin name="TRXN3" x="20.32" y="-10.16" length="middle" direction="out" rot="R180"/>
-<pin name="AVDD33" x="20.32" y="25.4" length="middle" direction="pwr" rot="R180"/>
-<pin name="AVDDL@3" x="20.32" y="17.78" length="middle" direction="pwr" rot="R180"/>
-<pin name="INT" x="-20.32" y="-12.7" length="middle"/>
-<pin name="LX" x="20.32" y="5.08" length="middle" direction="out" rot="R180"/>
-<pin name="RSTN" x="-20.32" y="15.24" length="middle" direction="in"/>
-<pin name="CLK_25M" x="20.32" y="7.62" length="middle" direction="out" rot="R180"/>
-<pin name="LED_10_100" x="-20.32" y="-5.08" length="middle"/>
-<pin name="RXD3" x="-20.32" y="-22.86" length="middle"/>
-<pin name="RXD2" x="-20.32" y="-20.32" length="middle"/>
-<pin name="VDDIO_REG" x="20.32" y="-12.7" length="middle" direction="out" rot="R180"/>
-<pin name="RXD1" x="-20.32" y="-17.78" length="middle"/>
-<pin name="RXD0" x="-20.32" y="-15.24" length="middle"/>
-<pin name="RX_CLK" x="-20.32" y="-27.94" length="middle" function="clk"/>
-<pin name="RX_DV" x="-20.32" y="-25.4" length="middle"/>
-<pin name="TX_EN" x="-20.32" y="27.94" length="middle" direction="in"/>
-<pin name="GTX_CLK" x="-20.32" y="0" length="middle" direction="in" function="clk"/>
-<pin name="TXD0" x="-20.32" y="25.4" length="middle" direction="in"/>
-<pin name="TXD1" x="-20.32" y="22.86" length="middle" direction="in"/>
-<pin name="TXD2" x="-20.32" y="20.32" length="middle" direction="in"/>
-<pin name="TXD3" x="-20.32" y="17.78" length="middle" direction="in"/>
-<pin name="DVDDL" x="20.32" y="30.48" length="middle" direction="pwr" rot="R180"/>
-<pin name="MDIO" x="-20.32" y="-30.48" length="middle"/>
-<pin name="MDC" x="-20.32" y="30.48" length="middle" direction="in"/>
-<pin name="LED_1000" x="-20.32" y="-10.16" length="middle"/>
-<pin name="LED_ACT" x="-20.32" y="-7.62" length="middle"/>
-<pin name="GND" x="20.32" y="-30.48" length="middle" direction="pwr" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="AR8035-AL1B" prefix="U">
-<description>AR8035 Integrated 10/100/1000 Gigabit Ethernet Transceiver</description>
-<gates>
-<gate name="G$1" symbol="AR8035-AL1B" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="QFN40P500X500X75-41N">
-<connects>
-<connect gate="G$1" pin="AVDD33" pad="14"/>
-<connect gate="G$1" pin="AVDDL@1" pad="6"/>
-<connect gate="G$1" pin="AVDDL@2" pad="11"/>
-<connect gate="G$1" pin="AVDDL@3" pad="17"/>
-<connect gate="G$1" pin="CLK_25M" pad="23"/>
-<connect gate="G$1" pin="DVDDL" pad="38"/>
-<connect gate="G$1" pin="GND" pad="41"/>
-<connect gate="G$1" pin="GTX_CLK" pad="33"/>
-<connect gate="G$1" pin="INT" pad="20"/>
-<connect gate="G$1" pin="LED_1000" pad="22"/>
-<connect gate="G$1" pin="LED_10_100" pad="24"/>
-<connect gate="G$1" pin="LED_ACT" pad="21"/>
-<connect gate="G$1" pin="LX" pad="2"/>
-<connect gate="G$1" pin="MDC" pad="40"/>
-<connect gate="G$1" pin="MDIO" pad="39"/>
-<connect gate="G$1" pin="RBIAS" pad="7"/>
-<connect gate="G$1" pin="RSTN" pad="1"/>
-<connect gate="G$1" pin="RXD0" pad="29"/>
-<connect gate="G$1" pin="RXD1" pad="28"/>
-<connect gate="G$1" pin="RXD2" pad="26"/>
-<connect gate="G$1" pin="RXD3" pad="25"/>
-<connect gate="G$1" pin="RX_CLK" pad="31"/>
-<connect gate="G$1" pin="RX_DV" pad="30"/>
-<connect gate="G$1" pin="TRXN0" pad="10"/>
-<connect gate="G$1" pin="TRXN1" pad="13"/>
-<connect gate="G$1" pin="TRXN2" pad="16"/>
-<connect gate="G$1" pin="TRXN3" pad="19"/>
-<connect gate="G$1" pin="TRXP0" pad="9"/>
-<connect gate="G$1" pin="TRXP1" pad="12"/>
-<connect gate="G$1" pin="TRXP2" pad="15"/>
-<connect gate="G$1" pin="TRXP3" pad="18"/>
-<connect gate="G$1" pin="TXD0" pad="34"/>
-<connect gate="G$1" pin="TXD1" pad="35"/>
-<connect gate="G$1" pin="TXD2" pad="36"/>
-<connect gate="G$1" pin="TXD3" pad="37"/>
-<connect gate="G$1" pin="TX_EN" pad="32"/>
-<connect gate="G$1" pin="VDD33" pad="3"/>
-<connect gate="G$1" pin="VDDH_REG" pad="8"/>
-<connect gate="G$1" pin="VDDIO_REG" pad="27"/>
-<connect gate="G$1" pin="XTLI" pad="5"/>
-<connect gate="G$1" pin="XTLO" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3644,9 +3468,8 @@ NOTE: CD1 and CD2 are connected internally</description>
 <part name="R23" library="Strawson_Eagle_Lib" deviceset="RESISTOR" device="0402-RES" value="100K,1%"/>
 <part name="POWER" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD-1101NE"/>
 <part name="RESET" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD-1101NE"/>
-<part name="JP1" library="pocketbone" deviceset="USB-AB" device=""/>
-<part name="JP2" library="pocketbone" deviceset="USB-AB" device=""/>
-<part name="U4" library="AR8035-AL1B" deviceset="AR8035-AL1B" device=""/>
+<part name="USB0" library="pocketbone" deviceset="USB-AB" device=""/>
+<part name="USB1" library="pocketbone" deviceset="USB-AB" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4214,9 +4037,8 @@ NOTE: CD1 and CD2 are connected internally</description>
 <attribute name="NAME" x="285.5214" y="138.43" size="1.27" layer="95" rot="R90" align="center-right"/>
 <attribute name="VALUE" x="285.242" y="146.05" size="1.27" layer="96" rot="R90" align="center-left"/>
 </instance>
-<instance part="JP1" gate="G$1" x="264.16" y="114.3"/>
-<instance part="JP2" gate="G$1" x="264.16" y="93.98"/>
-<instance part="U4" gate="G$1" x="149.86" y="53.34"/>
+<instance part="USB0" gate="G$1" x="264.16" y="114.3"/>
+<instance part="USB1" gate="G$1" x="264.16" y="93.98"/>
 </instances>
 <busses>
 </busses>
@@ -4291,20 +4113,20 @@ NOTE: CD1 and CD2 are connected internally</description>
 <pinref part="R23" gate="G$1" pin="1"/>
 <wire x1="287.02" y1="132.08" x2="287.02" y2="137.16" width="0.1524" layer="91"/>
 <junction x="287.02" y="132.08"/>
-<pinref part="JP1" gate="G$1" pin="GND"/>
+<pinref part="USB0" gate="G$1" pin="GND"/>
 <wire x1="259.08" y1="119.38" x2="256.54" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="119.38" x2="256.54" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="G$1" pin="SHIELD"/>
+<pinref part="USB0" gate="G$1" pin="SHIELD"/>
 <wire x1="259.08" y1="106.68" x2="256.54" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="106.68" x2="256.54" y2="119.38" width="0.1524" layer="91"/>
 <junction x="256.54" y="119.38"/>
 <wire x1="256.54" y1="106.68" x2="256.54" y2="99.06" width="0.1524" layer="91"/>
 <junction x="256.54" y="106.68"/>
-<pinref part="JP2" gate="G$1" pin="GND"/>
+<pinref part="USB1" gate="G$1" pin="GND"/>
 <wire x1="256.54" y1="99.06" x2="259.08" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="99.06" x2="256.54" y2="86.36" width="0.1524" layer="91"/>
 <junction x="256.54" y="99.06"/>
-<pinref part="JP2" gate="G$1" pin="SHIELD"/>
+<pinref part="USB1" gate="G$1" pin="SHIELD"/>
 <wire x1="256.54" y1="86.36" x2="259.08" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -4428,7 +4250,7 @@ NOTE: CD1 and CD2 are connected internally</description>
 <label x="195.58" y="139.7" size="1.778" layer="95"/>
 <wire x1="238.76" y1="139.7" x2="251.46" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="139.7" x2="251.46" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="G$1" pin="D+"/>
+<pinref part="USB0" gate="G$1" pin="D+"/>
 <wire x1="251.46" y1="114.3" x2="259.08" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -4440,7 +4262,7 @@ NOTE: CD1 and CD2 are connected internally</description>
 <wire x1="236.22" y1="137.16" x2="248.92" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="137.16" x2="248.92" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="111.76" x2="259.08" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="G$1" pin="D-"/>
+<pinref part="USB0" gate="G$1" pin="D-"/>
 </segment>
 </net>
 <net name="USB0_ID" class="0">
@@ -4449,7 +4271,7 @@ NOTE: CD1 and CD2 are connected internally</description>
 <wire x1="190.5" y1="132.08" x2="254" y2="132.08" width="0.1524" layer="91"/>
 <label x="195.58" y="132.08" size="1.778" layer="95"/>
 <wire x1="254" y1="132.08" x2="254" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="G$1" pin="USBID"/>
+<pinref part="USB0" gate="G$1" pin="USBID"/>
 <wire x1="254" y1="116.84" x2="259.08" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -4489,7 +4311,7 @@ NOTE: CD1 and CD2 are connected internally</description>
 <wire x1="309.88" y1="129.54" x2="345.44" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="127" x2="246.38" y2="109.22" width="0.1524" layer="91"/>
 <junction x="246.38" y="127"/>
-<pinref part="JP1" gate="G$1" pin="VBUS"/>
+<pinref part="USB0" gate="G$1" pin="VBUS"/>
 <wire x1="246.38" y1="109.22" x2="259.08" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -4499,7 +4321,7 @@ NOTE: CD1 and CD2 are connected internally</description>
 <wire x1="190.5" y1="121.92" x2="243.84" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="121.92" x2="243.84" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="99.06" x2="243.84" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="G$1" pin="D+"/>
+<pinref part="USB1" gate="G$1" pin="D+"/>
 <wire x1="243.84" y1="93.98" x2="259.08" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -4508,7 +4330,7 @@ NOTE: CD1 and CD2 are connected internally</description>
 <pinref part="U2" gate="C" pin="USB1_DM"/>
 <wire x1="190.5" y1="119.38" x2="241.3" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="119.38" x2="241.3" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="G$1" pin="D-"/>
+<pinref part="USB1" gate="G$1" pin="D-"/>
 <wire x1="241.3" y1="91.44" x2="259.08" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -4517,7 +4339,7 @@ NOTE: CD1 and CD2 are connected internally</description>
 <pinref part="U2" gate="C" pin="USB1_VBUS"/>
 <wire x1="190.5" y1="109.22" x2="238.76" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="109.22" x2="238.76" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="G$1" pin="VBUS"/>
+<pinref part="USB1" gate="G$1" pin="VBUS"/>
 <wire x1="238.76" y1="88.9" x2="259.08" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -4527,22 +4349,12 @@ NOTE: CD1 and CD2 are connected internally</description>
 <wire x1="129.54" y1="134.62" x2="114.3" y2="134.62" width="0.1524" layer="91"/>
 <label x="109.22" y="134.62" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="U4" gate="G$1" pin="TXD3"/>
-<wire x1="129.54" y1="71.12" x2="124.46" y2="71.12" width="0.1524" layer="91"/>
-<label x="109.22" y="71.12" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="MII1_TX_EN" class="0">
 <segment>
 <pinref part="U2" gate="C" pin="J16"/>
 <wire x1="129.54" y1="132.08" x2="114.3" y2="132.08" width="0.1524" layer="91"/>
 <label x="109.22" y="132.08" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U4" gate="G$1" pin="TX_EN"/>
-<wire x1="129.54" y1="81.28" x2="124.46" y2="81.28" width="0.1524" layer="91"/>
-<label x="109.22" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MII1_RX_ER" class="0">
@@ -4558,22 +4370,12 @@ NOTE: CD1 and CD2 are connected internally</description>
 <wire x1="129.54" y1="109.22" x2="114.3" y2="109.22" width="0.1524" layer="91"/>
 <label x="109.22" y="109.22" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="U4" gate="G$1" pin="RX_DV"/>
-<wire x1="129.54" y1="27.94" x2="124.46" y2="27.94" width="0.1524" layer="91"/>
-<label x="109.22" y="27.94" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="MII1_RXD1" class="0">
 <segment>
 <pinref part="U2" gate="C" pin="L15"/>
 <wire x1="129.54" y1="119.38" x2="114.3" y2="119.38" width="0.1524" layer="91"/>
 <label x="109.22" y="119.38" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U4" gate="G$1" pin="RXD1"/>
-<wire x1="129.54" y1="35.56" x2="124.46" y2="35.56" width="0.1524" layer="91"/>
-<label x="109.22" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MII1_RXD2" class="0">
@@ -4582,22 +4384,12 @@ NOTE: CD1 and CD2 are connected internally</description>
 <wire x1="129.54" y1="116.84" x2="114.3" y2="116.84" width="0.1524" layer="91"/>
 <label x="109.22" y="116.84" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="U4" gate="G$1" pin="RXD2"/>
-<wire x1="129.54" y1="33.02" x2="124.46" y2="33.02" width="0.1524" layer="91"/>
-<label x="109.22" y="33.02" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="MII1_RXD3" class="0">
 <segment>
 <pinref part="U2" gate="C" pin="L17"/>
 <wire x1="129.54" y1="114.3" x2="114.3" y2="114.3" width="0.1524" layer="91"/>
 <label x="109.22" y="114.3" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U4" gate="G$1" pin="RXD3"/>
-<wire x1="129.54" y1="30.48" x2="124.46" y2="30.48" width="0.1524" layer="91"/>
-<label x="109.22" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MII1_TXD2" class="0">
@@ -4606,11 +4398,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <wire x1="129.54" y1="137.16" x2="114.3" y2="137.16" width="0.1524" layer="91"/>
 <label x="109.22" y="137.16" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="U4" gate="G$1" pin="TXD2"/>
-<wire x1="129.54" y1="73.66" x2="124.46" y2="73.66" width="0.1524" layer="91"/>
-<label x="109.22" y="73.66" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="MII1_TXD1" class="0">
 <segment>
@@ -4618,22 +4405,12 @@ NOTE: CD1 and CD2 are connected internally</description>
 <wire x1="129.54" y1="139.7" x2="114.3" y2="139.7" width="0.1524" layer="91"/>
 <label x="109.22" y="139.7" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="U4" gate="G$1" pin="TXD1"/>
-<wire x1="129.54" y1="76.2" x2="124.46" y2="76.2" width="0.1524" layer="91"/>
-<label x="109.22" y="76.2" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="MII1_TXD0" class="0">
 <segment>
 <pinref part="U2" gate="C" pin="K17"/>
 <wire x1="129.54" y1="142.24" x2="114.3" y2="142.24" width="0.1524" layer="91"/>
 <label x="109.22" y="142.24" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U4" gate="G$1" pin="TXD0"/>
-<wire x1="129.54" y1="78.74" x2="124.46" y2="78.74" width="0.1524" layer="91"/>
-<label x="109.22" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MII1_TX_CLK" class="0">
@@ -4649,22 +4426,12 @@ NOTE: CD1 and CD2 are connected internally</description>
 <wire x1="129.54" y1="124.46" x2="114.3" y2="124.46" width="0.1524" layer="91"/>
 <label x="109.22" y="124.46" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="U4" gate="G$1" pin="RX_CLK"/>
-<wire x1="129.54" y1="25.4" x2="124.46" y2="25.4" width="0.1524" layer="91"/>
-<label x="109.22" y="25.4" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="MDC" class="0">
 <segment>
 <pinref part="U2" gate="C" pin="M18"/>
 <wire x1="129.54" y1="104.14" x2="114.3" y2="104.14" width="0.1524" layer="91"/>
 <label x="109.22" y="104.14" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U4" gate="G$1" pin="MDC"/>
-<wire x1="129.54" y1="83.82" x2="124.46" y2="83.82" width="0.1524" layer="91"/>
-<label x="109.22" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MDIO" class="0">
@@ -4694,94 +4461,12 @@ NOTE: CD1 and CD2 are connected internally</description>
 <wire x1="129.54" y1="121.92" x2="114.3" y2="121.92" width="0.1524" layer="91"/>
 <label x="109.22" y="121.92" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="U4" gate="G$1" pin="RXD0"/>
-<wire x1="129.54" y1="38.1" x2="127" y2="38.1" width="0.1524" layer="91"/>
-<label x="109.22" y="38.1" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="MII1_COL" class="0">
 <segment>
 <pinref part="U2" gate="C" pin="H16"/>
 <wire x1="129.54" y1="127" x2="114.3" y2="127" width="0.1524" layer="91"/>
 <label x="109.22" y="127" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="TRXP0"/>
-<wire x1="129.54" y1="63.5" x2="124.46" y2="63.5" width="0.1524" layer="91"/>
-<label x="109.22" y="63.5" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="TRXP1"/>
-<wire x1="129.54" y1="60.96" x2="124.46" y2="60.96" width="0.1524" layer="91"/>
-<label x="109.22" y="60.96" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$16" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="TRXP2"/>
-<wire x1="129.54" y1="58.42" x2="124.46" y2="58.42" width="0.1524" layer="91"/>
-<label x="109.22" y="58.42" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="TRXP3"/>
-<wire x1="129.54" y1="55.88" x2="124.46" y2="55.88" width="0.1524" layer="91"/>
-<label x="109.22" y="55.88" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="GTX_CLK"/>
-<wire x1="129.54" y1="53.34" x2="124.46" y2="53.34" width="0.1524" layer="91"/>
-<label x="109.22" y="53.34" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$19" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="TRXN0"/>
-<wire x1="170.18" y1="50.8" x2="175.26" y2="50.8" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$20" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="TRXN1"/>
-<wire x1="170.18" y1="48.26" x2="175.26" y2="48.26" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$21" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="TRXN2"/>
-<wire x1="170.18" y1="45.72" x2="175.26" y2="45.72" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$22" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="TRXN3"/>
-<wire x1="170.18" y1="43.18" x2="175.26" y2="43.18" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$23" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="VDDIO_REG"/>
-<wire x1="170.18" y1="40.64" x2="175.26" y2="40.64" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$24" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="VDDH_REG"/>
-<wire x1="170.18" y1="38.1" x2="175.26" y2="38.1" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="GND"/>
-<wire x1="170.18" y1="22.86" x2="175.26" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
