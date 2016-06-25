@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.00625" unitdist="inch" unit="inch" style="lines" multiple="8" display="yes" altdistance="0.635" altunitdist="mm" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="8" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -28,16 +28,16 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -46,19 +46,19 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -1292,21 +1292,16 @@ design rules under a new name.</description>
 <wire x1="12.065" y1="27.305" x2="13.335" y2="27.305" width="0.3302" layer="16"/>
 <contactref element="USB0" pad="VBUS"/>
 <via x="26.67" y="25.4" extent="1-16" drill="0.3302" shape="octagon"/>
-<wire x1="14.605" y1="28.575" x2="20.32" y2="28.575" width="0.3302" layer="16"/>
-<wire x1="20.32" y1="28.575" x2="26.3525" y2="28.575" width="0.3302" layer="16"/>
 <wire x1="26.3525" y1="28.575" x2="26.67" y2="28.2575" width="0.3302" layer="16"/>
 <wire x1="26.67" y1="28.2575" x2="26.67" y2="25.4" width="0.3302" layer="16"/>
 <wire x1="13.335" y1="27.305" x2="13.335" y2="28.2575" width="0.3302" layer="16"/>
 <wire x1="13.335" y1="28.2575" x2="13.6525" y2="28.575" width="0.3302" layer="16"/>
-<wire x1="13.6525" y1="28.575" x2="14.605" y2="28.575" width="0.3302" layer="16"/>
-<wire x1="20.32" y1="27.94" x2="20.32" y2="28.575" width="0.3302" layer="16"/>
 <wire x1="26.67" y1="25.4" x2="26.3825" y2="25.4075" width="0.3302" layer="1"/>
 <wire x1="21.9075" y1="17.78" x2="22.5425" y2="17.78" width="0.3302" layer="16"/>
 <wire x1="22.5425" y1="17.78" x2="22.86" y2="17.4625" width="0.3302" layer="16"/>
 <wire x1="22.86" y1="17.4625" x2="22.86" y2="16.8275" width="0.3302" layer="16"/>
 <wire x1="22.86" y1="16.8275" x2="23.1775" y2="16.51" width="0.3302" layer="16"/>
-<wire x1="23.1775" y1="16.51" x2="26.035" y2="16.51" width="0.3302" layer="16"/>
-<wire x1="26.035" y1="16.51" x2="26.3525" y2="16.51" width="0.3302" layer="16"/>
+<wire x1="23.1775" y1="16.51" x2="26.3525" y2="16.51" width="0.3302" layer="16"/>
 <wire x1="26.3525" y1="16.51" x2="26.67" y2="16.8275" width="0.3302" layer="16"/>
 <wire x1="26.67" y1="16.8275" x2="26.67" y2="17.4625" width="0.3302" layer="16"/>
 <wire x1="26.67" y1="17.4625" x2="26.9875" y2="17.78" width="0.3302" layer="16"/>
@@ -1319,6 +1314,7 @@ design rules under a new name.</description>
 <wire x1="20.955" y1="19.685" x2="20.955" y2="19.3675" width="0.3302" layer="16"/>
 <wire x1="20.955" y1="19.3675" x2="21.59" y2="18.7325" width="0.3302" layer="16"/>
 <wire x1="21.59" y1="18.7325" x2="21.59" y2="18.0975" width="0.3302" layer="16"/>
+<wire x1="26.3525" y1="28.575" x2="13.6525" y2="28.575" width="0.3302" layer="16"/>
 </signal>
 <signal name="N$12">
 <contactref element="U2" pad="D19"/>
@@ -1532,13 +1528,13 @@ design rules under a new name.</description>
 <contactref element="R29" pad="2"/>
 <contactref element="RESET" pad="1"/>
 <contactref element="POWER" pad="1"/>
-<polygon width="0.3302" layer="1">
+<polygon width="0.3302" layer="1" isolate="0.1524">
 <vertex x="30.48" y="30.48"/>
 <vertex x="0" y="30.48"/>
 <vertex x="0" y="0"/>
 <vertex x="30.48" y="0"/>
 </polygon>
-<polygon width="0.3302" layer="16">
+<polygon width="0.3302" layer="16" isolate="0.1524">
 <vertex x="30.48" y="30.48"/>
 <vertex x="0" y="30.48"/>
 <vertex x="0" y="0"/>
